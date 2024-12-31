@@ -1,0 +1,5 @@
+#statusBody{
+    background-image: linear-gradient(to right top, #111111, #161616, #1a1a1a, #1e1e1e, #222222);
+    height: 100%;
+    min-height: 100vh;
+}

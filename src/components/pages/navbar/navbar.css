@@ -1,0 +1,45 @@
+.dropdown-menu {
+    left: auto ;
+    right: 0; 
+}
+
+#navbarbtn{
+    border-radius: 8px;
+}
+
+.dropdown-menu{
+    padding:5px 0px 2px;
+
+}
+
+#navbarDropdown,#navbarHome{
+    transition: text-shadow 3s;
+}
+
+#navbarDropdown:hover,#navbarHome:hover{
+    color: #fff;
+    text-shadow: 0px 0px 3px rgb(255, 255, 255);
+}
+
+.dropdown-menu,.dropdown-item{
+    background-color: #0f172d92;
+    color: #fff;
+    transition: background-color 0.28s;
+    
+}
+
+.dropdown-item:hover{
+    background-color: #9abaf2;
+    color: #0f172d;
+}
+
+/* the below code is to control the logout without 'to' attribute active issue resolving */
+
+.dropdown-item.active{
+    background-color: transparent;
+}
+
+.dropdown-item.active:hover{
+    background-color: #9abaf2;
+    color: #0f172d;
+}

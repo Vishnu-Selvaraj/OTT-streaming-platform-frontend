@@ -1,0 +1,88 @@
+#viewBody{
+    background-image: linear-gradient(to right top, #111111, #161616, #1a1a1a, #1e1e1e, #222222);
+    height: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+#imgContainer{
+    position: relative;
+}
+
+#shortCard{
+
+    background-size: cover;
+}
+
+#modalBtn{
+    margin-top: 150px;
+    border-radius: 5px;
+    padding: 5px 50px;
+}
+
+#viewBackbtn{
+    border-radius: 5px;
+    padding: 5px 60px;
+}
+
+@media only screen and (max-width:600px){
+    #modalBtn{
+        margin-top: 80px;
+        border-radius: 5px;
+        padding: 2px 30px;
+    }
+    #imgContainer{
+        height: 76vh;
+    }
+    #ratingMesaage{
+        font-size: x-small;
+    }
+}
+
+@media only screen and (min-width:600px){
+    #modalBtn{
+        margin-top: 100px;
+        border-radius: 5px;
+        padding: 4px 40px;
+    }
+    #imgContainer{
+        height: 73vh;
+    }
+    #ratingMesaage{
+        font-size: small;
+    }
+    
+}
+
+@media only screen and (min-width:768px){
+    #modalBtn{
+        margin-top: 140px;
+        border-radius: 5px;
+        padding: 5px 50px;
+    }
+    #imgContainer{
+        height: 73vh;
+    }
+    #ratingMesaage{
+        font-size: medium;
+    }
+    
+    
+}
+
+@media only screen and (min-width:992px){
+    #modalBtn{
+        margin-top: 190px;
+        border-radius: 5px;
+        padding: 5px 50px;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    #modalBtn{
+        margin-top: 230px;
+        border-radius: 5px;
+        padding: 5px 50px;
+    }
+    
+}

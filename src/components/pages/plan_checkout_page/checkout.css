@@ -1,0 +1,55 @@
+#checkoutBody{
+    background-image: linear-gradient(to right top, #111111, #161616, #1a1a1a, #1e1e1e, #222222);
+    height: 100%;
+    min-height: 100vh;
+}
+
+
+ul #ViewCardList::before{
+    content: '✓';
+}
+
+#payBtn{
+    border: 1px solid #ddd;
+    padding: 5px 150px;
+    background-color: #111111;
+    color: #ddd;
+}
+
+#payBtn:hover{
+    border: 1px solid #111111;
+    background-color: #ddd;
+    color: #111111;
+    font-weight: 700;
+}
+
+#MainCard{
+    border-radius: 15px;
+    background-color:rgba(0, 0, 0, 0.5);
+    transition: box-shadow 1s;
+}
+
+#MainCard:hover{
+    box-shadow: 1px 1px 20px #fff;
+}
+
+#MainCard #ViewCardList{
+    background-color:rgba(0, 0, 0, 0.05);
+    color: #ddd;
+}
+
+#ViewCardList{
+    transition: transform 0.3s;
+}
+
+#ViewCardList:hover{
+    background-color: #111111;
+    color: lightseagreen;
+    transform: scale(0.95);
+    box-shadow: 2px 2px 8px #ee4646;
+}
+
+#cardTable:hover{
+    box-shadow: 1px 2px 6px #e45858;
+
+}

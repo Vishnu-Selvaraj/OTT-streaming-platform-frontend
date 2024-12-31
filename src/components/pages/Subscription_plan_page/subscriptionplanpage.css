@@ -1,0 +1,22 @@
+#SubscribePlanBody{
+    background-image: linear-gradient(to right top, #111111, #161616, #1a1a1a, #1e1e1e, #222222);
+    height: 100%;
+    min-height: 100vh;
+}
+
+#SubSearch{
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+
+#SubscriptionPlanbackicon{
+    color: #fff;
+    transition: color 0.6s;
+    transition: transform 0.6s;
+}
+
+#SubscriptionPlanbackicon:hover{
+    color: #3255b6;
+    transform: translatex(-1rem);
+}

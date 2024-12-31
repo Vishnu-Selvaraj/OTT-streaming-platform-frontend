@@ -1,0 +1,31 @@
+#landingBody{
+    background: rgba(0, 0, 0, 0.7) url('../../../images/landingpage.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    height: 100vh;
+    min-height: 100%;
+}
+
+#landingcontainer{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#startBtn{
+    background-color: #E50914;
+    border-radius: 5px;
+    padding: 5px 30px;
+    color: #fff;
+    transition: color 0.6s,box-shadow 0.8s;
+
+}
+
+#startBtn:hover{
+    box-shadow: 1px 1px 12px #E50914;
+    color: #111;
+
+}

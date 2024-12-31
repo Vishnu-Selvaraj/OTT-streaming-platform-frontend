@@ -1,0 +1,110 @@
+#loginbody{
+    /* background-image: linear-gradient(to right top, #051937, #0f172d, #131523, #13131a, #111111); */
+    background: rgb(0, 0, 0,0.6) url('../../images/bg\ poster2.jpg') no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+    background-blend-mode: darken;
+   }
+
+#ForgotPagebody{
+    background: rgb(0, 0, 0,0.6) url('../../images/bg\ poster4.jpg') no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+    background-blend-mode: darken;
+}
+
+#ResetPagebody{
+    background: rgb(0, 0, 0,0.6) url('../../images/bg\ poster5.png') no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+    background-blend-mode: darken;
+}
+
+#changePasswordbody{
+    background: rgb(0, 0, 0,0.6) url('../../images/bg\ poster6.png') no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+    background-blend-mode: darken;
+}
+
+
+#body{
+    background-image: linear-gradient(to right top, #051937, #0f172d, #131523, #13131a, #111111);
+    height: 100vh;
+}
+
+#loginCard,#forgotcard{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+
+.btn{
+   border-radius: 20px;
+}
+
+.form-control{
+   border-radius: 5px;
+}
+
+
+#resetBtn,#changePassword{
+    padding: 5px 100px;
+}
+
+#loginBtn,#sendLink,#resetBtn,#changePassword{
+    border-radius: 8px;
+    border: none;
+    transition:background-color  0.4s;
+}
+
+#loginBtn:hover,#sendLink:hover,#resetBtn:hover,#changePassword:hover{
+    background-color:#E50914 ;
+    font-weight: 600;
+}
+
+
+#loginInnerCard{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    box-shadow: 6px 5px 50px rgba(220, 217, 217, 0.15)
+}
+
+#forgotInnercard,#resetInnerCard,#changePasswordInnerCard{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px rgba(220, 217, 217, 0.15)
+}
+
+#loginInnerCard input[type='text'] ,#loginInnerCard input[type='email'],#loginInnerCard input[type='password'],#forgotInnercard input[type='email'], #resetInnerCard input[type='password'],#changePasswordInnerCard input[type='password']{
+    background-color: rgba(0, 0, 0, 0.451);
+    border: 1px solid #ffffff65;
+}
+
+#LinkExpiredBody{
+    background-color: #eee;
+    height: 100vh;
+}
+
+#LinkExpiredcard {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+#LinkExpiredtext {
+    font-weight: 800;
+    text-shadow: 3px 3px 14px #111;
+  }
+
+#LinkExpiredBtn{
+    border-radius: 8px;
+    padding: 5px 70px;
+    transition: background-color 0.6s,border-color 0.6s;
+}
+
+#LinkExpiredBtn:hover{
+    border-color: #E50914;
+    background-color: #E50914;
+}

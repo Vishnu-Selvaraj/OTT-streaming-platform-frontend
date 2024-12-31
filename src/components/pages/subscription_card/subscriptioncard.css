@@ -1,0 +1,52 @@
+ul #CardList::before{
+    content: '✓';
+    font-weight: 600;
+}
+
+#planCard{
+    border-radius: 15px;
+    height: auto;
+    transition: transform 0.4s;
+    transition:background-image 0.4s ;
+}
+
+#planCard:hover{
+    transform:scale(1.07) ;
+    cursor: pointer;
+    color:#fff;
+    background-image: linear-gradient(to right top, #a020f0, #a74df6, #b06cfb, #b988fe, #c4a1ff);
+}
+
+#planCard #SubBtn{
+    border-radius: 8px;
+}
+
+#planCard:hover #CardList{
+    background-image: linear-gradient(to right top, #a020f0, #a74df6, #b06cfb, #b988fe, #c4a1ff);
+    color: #fff;
+}
+
+#planCard:hover #SubBtn{
+    border: none;
+    background-color: #fff;
+    color: #111111;
+}
+
+#planCard #SubBtn:hover{
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+}
+
+#SubscribeBody #subscribitionTable{
+    font-weight: 600;
+    transition: transform 0.4s;
+}
+
+#SubscribeBody #subscribitionTable:hover{
+    background-image: linear-gradient(to right top, #a020f0, #a74df6, #b06cfb, #b988fe, #c4a1ff);
+    color: #fff;
+    font-weight: 500;
+    transform: scale(1.04);
+    box-shadow: 2px 2px 12px #111111;
+}

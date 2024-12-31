@@ -1,0 +1,4 @@
+#SearchMain input[type=search]{
+    background-color: rgba(0, 0, 0,0.75);
+    border: none;
+}

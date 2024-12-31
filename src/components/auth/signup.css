@@ -1,0 +1,46 @@
+#Signupbody{
+     background: rgba(0,0,0,0.6)  url('../../images/bg\ poster.jpg') no-repeat;
+     height: 100vh;
+     background-blend-mode: darken;
+    }
+
+#card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+#innerCard{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    box-shadow: 6px 5px 50px rgba(220, 217, 217, 0.132)
+}
+
+
+#signupBtn{
+    border: none;
+    border-radius: 8px;
+    transition:  background-color 0.4s;
+}
+
+#signupBtn:hover{
+    background-color:#E50914 ;
+    font-weight: 600;
+}
+
+.form-control{
+    border-radius: 5px;
+}
+
+#sideImg{
+    display: flex;
+    justify-content: start;
+    object-fit: cover;
+}
+
+#signupForm input[type='text'] ,#signupForm input[type='email'],#signupForm input[type='password']{
+    background-color: rgba(0, 0, 0, 0.451);
+    border: 1px solid #ffffff65;
+}

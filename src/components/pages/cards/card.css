@@ -1,0 +1,41 @@
+/* #card-img{
+    height: 165px;
+    transition: transform 0.7s,box-shadow 0.4s;
+}
+
+#card-img:hover{
+    transform: scale(1.06);
+    box-shadow: 0.5px 0.5px 25px #000;
+
+}
+
+#cardImag{
+    height: 120px;
+    
+} */
+
+#cardImag{
+    aspect-ratio: 16/9;
+}
+
+#cardBody{
+    aspect-ratio: 16/4;
+}
+
+#card-img{
+    transition: transform 0.7s,box-shadow 0.4s;
+}
+
+#card-img:hover{
+    transform: scale(1.06);
+    box-shadow: 0.5px 0.5px 25px #000;
+
+}
+
+#Btnremove,#BtnAdd{
+    transition: transform 0.3s;
+}
+
+#Btnremove:hover,#BtnAdd:hover{
+    transform: scale(1.3);
+}
